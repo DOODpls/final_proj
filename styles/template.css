@@ -15,12 +15,16 @@ body{
   height: 100vh;
   width: 4em;
   background-color: black;
-  font-size: 3em;
+  font-size: 4vw;
   overflow: auto;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
+
+
+  
+  
 .navmenu li{
   font-family: 'Teko', sans-serif;
   display: flex;
