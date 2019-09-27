@@ -1,0 +1,143 @@
+@import url(../styles/reset.css);
+@import url(../styles/fonts.css);
+@import url(../styles/cards.css);
+
+
+body{
+  margin: 0;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  list-style-type: none;
+  height: 100vh;
+  width: 4em;
+  background-color: black;
+  font-size: 3em;
+  overflow: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.navmenu li{
+  font-family: 'Teko', sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 15vh;
+  text-decoration: line-through;
+}
+.navmenu > li > a{
+  color: white;
+  text-decoration: none;
+}
+
+.MainContainer {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.wrapper {
+  display: flex;
+}
+
+html, body {
+  font-family: Open Sans;
+  font-size: 18px;
+  line-height: 28px;
+  scroll-behavior: smooth;
+}
+
+#hero {
+  font-family: 'Teko', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 10vw;
+  font-weight: 800;
+  line-height: 200px;
+}
+
+.MainContainer {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.ContentContainer {
+  position: relative;
+  display: block;
+  background-color: white;
+  z-index: 1;
+}
+
+.ParallaxContainer {
+  display: flex;
+  flex: 1 0 auto;
+  position: relative;
+  z-index: -1;
+  height: 110vh;
+  justify-content: center;
+  align-items: center;
+  transform: translateZ(-1px) scale(2);
+  background: url(../images/30043160557_853bd62415_o.jpg);
+  background-size: cover;
+  background-position: bottom;
+  top: -11vmin;
+  margin: -1vmin;
+}
+p{
+  text-align: justify;
+}
+
+@media (max-width: 600px)  {
+  
+  .sidebar {
+    background-color: rgb(0, 0, 0);
+    height: 10vmin;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    
+  }
+  .navmenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    
+  }
+  .navmenu li{
+    font-family: 'Teko', sans-serif;
+    height: 3vh;
+    text-decoration: line-through;
+    font-size: 5vmin;
+  }
+  .navmenu > li > a{
+    color: white;
+    text-decoration: none;
+  }
+}
+h2{
+  font-family: 'Teko', sans-serif;
+}
+footer.foot{
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  background-color: black;
+  color: white;
+  height: 40px;
+  font-size: 2vmin;
+}
+footer h2 {
+  grid-column: 1 / -1;
+}
+.ftlnk{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}

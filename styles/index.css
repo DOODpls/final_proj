@@ -1,0 +1,26 @@
+
+#card1, #card2, #card3, #card4{
+  width: 400px;
+}
+
+#cards{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 10vmin;
+  padding-bottom: 10vmin;
+}
+
+@media (max-width: 550px)  {
+
+  #cards{
+    padding: 0;
+  }
+
+  #f{
+    padding-top: 1vmin;
+    font-size: 3vmin;
+    margin-bottom: 0;
+  }
+}
