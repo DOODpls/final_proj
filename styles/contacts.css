@@ -52,7 +52,7 @@
   display: flex;
   justify-content: flex-end;
 }
-#reset, #send{
+#reset, #send{                    /*these are my links to things that i used for my project*/
   height: 45px;
   width: 120px;
   display: inline-block;

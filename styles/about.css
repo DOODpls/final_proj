@@ -12,10 +12,10 @@
   width: 400px;
   margin: auto;
   background-size: cover;
-  clip-path: polygon(100% 0, 0 0, 50% 100%);
+  clip-path: polygon(100% 0, 0 0, 50% 100%);      /* used this to shape my image to triangle*/
   background-position: bottom;
   float: left;
-  shape-outside: polygon(100% 0, 0 0, 50% 100%)
+  shape-outside: polygon(100% 0, 0 0, 50% 100%)    /* used this to shape the border around the image*/
   
 }
 
@@ -36,7 +36,7 @@
 }
 #par, #cards{
   height: 45px;
-  width: 120px;
+  width: 120px;                             /* added a links on the things that i used from the web*/
   display: inline-block;
   text-align: center;
   text-decoration: none;

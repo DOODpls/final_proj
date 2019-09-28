@@ -32,7 +32,7 @@ img:hover{
 
 .gridauto{
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(350px,1fr)); /* used grid auto for gallery responsiveness*/
   grid-auto-rows: 370px;
 }
 
@@ -40,23 +40,7 @@ img:hover{
   font-family: 'Teko', sans-serif;
 }
 
-#gal1{
-  width: 80vw;
-  margin: auto;
-  padding-top: 10vmin;
-}
-#gal2{
-  width: 80vw;
-  margin: auto;
-  padding-top: 10vmin;
-}
-#gal3{
-  width: 80vw;
-  margin: auto;
-  padding-top: 10vmin;
-}
-
-#gal4{
+#gal1, #gal2, #gal3, #gal4{
   width: 80vw;
   margin: auto;
   padding-top: 10vmin;
