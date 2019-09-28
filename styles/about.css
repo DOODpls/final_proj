@@ -116,4 +116,11 @@
     font-size: 3vmin;
     margin-bottom: 0;
   }
+
+  #par, #cards{
+    height: 30px;
+    width: 80px;
+    font-size: 12px;
+    margin: 5px;
+  }
 }
