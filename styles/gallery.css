@@ -2,7 +2,7 @@
 h1{
   font-size: 5vmin;
 }
-@-moz-document url-prefix() {
+@-moz-document url-prefix() { /* need to add browser detector becuase the object-fit doesnt do well on chrome*/
   img{
     width: 350px; 
     height: 350px;
@@ -22,7 +22,7 @@ img{
 }
 img:hover{
   transform: scale(1.2);
-  box-shadow: 0 20px 30px;
+  box-shadow: 0 15px 30px;     /* added zoon transistions with shadow for depth effect*/
   z-index: 1;
 }
 .contentgrd{
