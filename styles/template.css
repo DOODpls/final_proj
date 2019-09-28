@@ -126,13 +126,14 @@ p{
 h2{
   font-family: 'Teko', sans-serif;
 }
-footer.foot{
+.foot{
   display: grid;
   justify-items: center;
+  align-items: center;
   grid-template-columns: 1fr 1fr;
   background-color: black;
   color: white;
-  height: 40px;
+  height: 5vmin;
   font-size: 2vmin;
 }
 footer h2 {
@@ -141,4 +142,10 @@ footer h2 {
 .ftlnk{
   color: rgb(255, 255, 255);
   text-decoration: none;
+}
+
+@media (max-width: 600px)  {
+  .foot{
+    height: 8vmin;
+  }
 }
