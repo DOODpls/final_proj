@@ -127,8 +127,10 @@ h2{
   font-family: 'Teko', sans-serif;
 }
 .foot{
-  display: flex;
-  justify-content: center;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
   background-color: black;
   color: white;
   height: 5vmin;
@@ -144,6 +146,11 @@ footer h2 {
 
 @media (max-width: 600px)  {
   .foot{
-    height: 15vmin;
+    height: 8vmin;
+  }
+}
+@media (max-width: 343px)  {
+  .foot{
+    height: 12vw;
   }
 }
