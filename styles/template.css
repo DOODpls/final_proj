@@ -147,7 +147,7 @@ footer h2 {
 @media (max-width: 600px)  {
   .foot{
     height: 8vmin;
-    font-size: 3vmin;
+    font-size: 2vmin;
     padding-top: 1vmin;
     margin-bottom: 0;
   }
