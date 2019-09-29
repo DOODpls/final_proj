@@ -70,11 +70,4 @@ img:hover{
     grid-template-columns: repeat(auto-fit,minmax(95px,1fr));
     grid-auto-rows: 110px;
   }
-
-  #f{
-    padding-top: 1vmin;
-    font-size: 3vmin;
-    margin-bottom: 0;
-  }
-  
 }
