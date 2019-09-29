@@ -91,19 +91,21 @@
 @media (max-width: 600px)  {
 
   #htwo{
-    font-size: 30px;
+    font-size: 7vmin;
   }
   .formcont{
     width: 80vw;
+    font-size: 4vmin;
   }
   #textarea{
     width: 70vw;
+    height: 30vw;
     resize: none;
     font-size: 15px;
   }
   #name, #email{
-    width: 150px;
-    height: 20px;
+    width: 40vw;
+    height: 5vw;
     font-size: 15px;
   }
   #f{
@@ -113,10 +115,10 @@
   }
 
   #reset, #send{
-    height: 30px;
-    width: 80px;
-    font-size: 12px;
-    margin: 5px;
+    height: 7vmin;
+    width: 20vmin;
+    font-size: 3vmin;
+    margin: 1vmin;
   }
   
 }

@@ -4,7 +4,7 @@
 
 
 body{
-  margin: 0;
+  height: 100vh;
 }
 
 .sidebar {                            /*i decided to make my nav on the side so just i adjust it when resizing on desktop*/
@@ -36,7 +36,8 @@ body{
 
 .MainContainer {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
+  margin-bottom: 0;
   display: flex;
   flex-direction: column;
 }
@@ -44,6 +45,7 @@ body{
 
 .wrapper {
   display: flex;
+  height: 100vh;
 }
 
 html, body {

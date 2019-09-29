@@ -112,15 +112,15 @@
     margin: 15vmin;
   }
   #f{
-    padding-top: 1vmin;
+    padding-bottom: 9vmin;
     font-size: 3vmin;
     margin-bottom: 0;
   }
 
   #par, #cards{
-    height: 30px;
-    width: 80px;
-    font-size: 12px;
-    margin: 5px;
+    height: 7vmin;
+    width: 20vmin;
+    font-size: 3vmin;
+    margin: 1vmin;
   }
 }
