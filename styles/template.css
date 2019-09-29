@@ -147,10 +147,13 @@ footer h2 {
 @media (max-width: 600px)  {
   .foot{
     height: 8vmin;
+    font-size: 3vmin;
+    padding-top: 1vmin;
+    margin-bottom: 0;
   }
 }
 @media (max-width: 343px)  {
   .foot{
-    height: 10vw;
+    height: 12vw;
   }
 }
